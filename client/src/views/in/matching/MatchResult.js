@@ -59,9 +59,8 @@ const MatchResult = ({ sdata, jdata, identity, ended }) => {
   )
 }
 MatchResult.propTypes = {
-  jdata: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
-  sdata: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
-
+  jdata: PropTypes.oneOfType([PropTypes.array, PropTypes.object, PropTypes.string]),
+  sdata: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   identity: PropTypes.string,
   ended: PropTypes.bool,
 }
