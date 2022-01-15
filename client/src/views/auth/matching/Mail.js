@@ -37,7 +37,7 @@ const Mail = ({ hasSent, setHasSent, setHasMatched }) => {
             className="align-self-baseline btn btn-ghost-info"
             onClick={() => setHasMatched(false)}
           >
-            <CIcon name="cil-home" size="lg" />
+            <CIcon icon="cil-home" size="lg" />
           </button>
           <img src={mail_sent} alt="success" className="img-fluid w-25" />
           <h2 className="my-4">信件已全數寄出，謝謝您的幫忙！</h2>

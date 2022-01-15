@@ -78,7 +78,7 @@ const Recruitment = () => {
               }}
               color="light"
             >
-              <CIcon name="cil-home" />
+              <CIcon icon="cil-home" />
             </CButton>
             <CFormControl
               type="search"
@@ -89,7 +89,7 @@ const Recruitment = () => {
               }}
             ></CFormControl>
             <CButton onClick={(e) => searchData(e)} color="light">
-              <CIcon name="cil-search" />
+              <CIcon icon="cil-search" />
             </CButton>
           </CInputGroup>
         </form>
